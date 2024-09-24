@@ -5,35 +5,24 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-html,body{
-    heigth:100%;
+html , body{
+    height:100%;
     display: grid;
     place-items: center;
-    background-color: violet;
+    background: #f679a8;
 }
 .wrapper
 {
- display: flex ;
- height: 200px;
- width: 600px;
- text-align: center;
- justify-content: center;
+    display:flex;
+    height: 200px;
+    width:600px;
+    align-items: center;
+    justify-content: center;
 }
 .wrapper .right
 {
-    background: #fff;
-    height: 100%;
-    width:50%;
-    text-align: center;
-    border-radius: 5px 0 0 5px;
-    z-index: 12;
+    background:#fff;
+    
 }
-.wrapper .right .logo
-{
-    font-size: 30px;
-    font-weight:bold;
-    margin-top: 18px;
 
-
-}
+    
